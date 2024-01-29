@@ -1,5 +1,4 @@
 local wezTerm = require("wezterm")
-
 wezTerm.on("incrementOpacity", function(window, _)
 	local overrides = window:get_config_overrides() or {}
 	local currentOpcity = overrides.window_background_opacity

@@ -1,9 +1,7 @@
 local wezterm = require("wezterm")
-require("wezToggleOpacity")
 require("wezIncrementOpacity")
 require("wezDecrementOpacity")
-require("wezIncrementFontSize")
-require("wezDecrementFontSize")
+require("wezToggleOpacity")
 local module = {}
 
 function module.apply_to_config(config)
@@ -89,16 +87,6 @@ function module.apply_to_config(config)
 			key = "u",
 			mods = "LEADER",
 			action = wezterm.action.EmitEvent("decrementOpacity"),
-		},
-		{
-			key = "U",
-			mods = "LEADER|SHIFT",
-			action = wezterm.action.EmitEvent("incrementFontSize"),
-		},
-		{
-			key = "D",
-			mods = "LEADER|SHIFT",
-			action = wezterm.action.EmitEvent("decrementFontSize"),
 		},
 	}
 	for i = 1, 9 do
