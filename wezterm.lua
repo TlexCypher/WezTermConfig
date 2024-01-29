@@ -11,7 +11,7 @@ wezFont.apply_to_config(config)
 wezColorScheme.apply_to_config(config)
 wezOpacity.apply_to_config(config)
 wezImage.apply_to_config(config)
+wezKeyBinding.apply_to_config(config)
 -- wezGradient.apply_to_config(config)
 -- wezQuieckSelectPatterns.apply_to_config(config)
-wezKeyBinding.apply_to_config(config)
 return config

@@ -1,4 +1,7 @@
 local wezterm = require("wezterm")
+require("wezToggleOpacity")
+require("wezIncrementOpacity")
+require("wezDecrementOpacity")
 local module = {}
 
 function module.apply_to_config(config)
@@ -69,6 +72,21 @@ function module.apply_to_config(config)
 			key = "v",
 			mods = "CMD",
 			action = wezterm.action.PasteFrom("Clipboard"),
+		},
+		{
+			key = "t",
+			mods = "LEADER",
+			action = wezterm.action.EmitEvent("toggle_opacity"),
+		},
+		{
+			key = "d",
+			mods = "LEADER",
+			action = wezterm.action.EmitEvent("incrementOpacity"),
+		},
+		{
+			key = "u",
+			mods = "LEADER",
+			action = wezterm.action.EmitEvent("decrementOpacity"),
 		},
 	}
 	for i = 1, 9 do
