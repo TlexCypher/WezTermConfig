@@ -20,4 +20,5 @@ All you need is getting started! Let's dive into **Wezterm + Neovim !**
 
 Have a nice hack day!
 
-Comming soon...
+<img width="981" alt="Screenshot 2024-04-14 at 18 08 12" src="https://github.com/TlexCypher/WezTermConfig/assets/144787772/89fe7572-34be-45db-8755-ed9d585a189a">
+
