@@ -1,15 +1,23 @@
 # My Wezterm Configuration
 
-Wezterm is one of the awesome terminal emulators!
-If you use neovim, probably you have already written Lua language.
-As you know neovim's concept is anything is configurable, but wezterm is same!
-Because as well as neovim, wezterm's configuration can be written with Lua, not text like any other terminal emulator!
+![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)
+![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)
+![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
 
-## My wezterm demo!
+[Wezterm](https://wezfurlong.org/wezterm/index.html) is one of the awesome terminal emulators!
 
-My wezterm's demo is here.  
-What are you waiting for?  
-All you need is getting started! Let's dive into wezterm + nvim!  
+If you use [Neovim](https://github.com/neovim/neovim), probably you have already written Lua language.
+
+As you know Neovim's concept is **anything is configurable**, but wezterm is same!
+
+Because as well as Neovim, wezterm's configuration **can be written with Lua, not text like any other terminal emulator !**
+
+## My Wezterm demo !
+
+My Wezterm's demo is here! What are you waiting for?
+
+All you need is getting started! Let's dive into **Wezterm + Neovim !**
+
 Have a nice hack day!
 
 Comming soon...
