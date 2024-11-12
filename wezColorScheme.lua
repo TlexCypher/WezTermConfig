@@ -1,7 +1,7 @@
 local module = {}
 
 function module.apply_to_config(config)
-	config.color_scheme = "tokyonight"
+    config.color_scheme = "tokyonight"
 end
 
 return module
