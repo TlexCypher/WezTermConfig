@@ -93,6 +93,12 @@ function module.apply_to_config(config)
             mods = "LEADER",
             action = wezterm.action.ActivateCopyMode,
         },
+        -- search and find
+        {
+            key = "f",
+            mods = "CTRL",
+            action = wezterm.action.Search {CaseInSensitiveString = ""} ,
+        },
     }
     for i = 1, 9 do
         table.insert(config.keys, {
