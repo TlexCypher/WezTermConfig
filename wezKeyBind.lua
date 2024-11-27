@@ -96,7 +96,7 @@ function module.apply_to_config(config)
         -- search and find
         {
             key = "f",
-            mods = "CTRL",
+            mods = "CMD",
             action = wezterm.action.Search {CaseInSensitiveString = ""} ,
         },
     }
