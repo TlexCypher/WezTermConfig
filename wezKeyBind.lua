@@ -97,7 +97,13 @@ function module.apply_to_config(config)
         {
             key = "f",
             mods = "CMD",
-            action = wezterm.action.Search {CaseInSensitiveString = ""} ,
+            action = wezterm.action.Search { CaseInSensitiveString = "" },
+        },
+        -- launch tmux-sessionizer
+        {
+            key = "f",
+            mods = "CTRL",
+            action = wezterm.action.SendString("tmux-sessionizer\n"),
         },
     }
     for i = 1, 9 do
